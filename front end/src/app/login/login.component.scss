@@ -1,0 +1,108 @@
+body,
+html {
+  height: 100%;
+}
+
+.bg {
+  
+  background-image: url("https://in.images.search.yahoo.com/images/view;_ylt=AwrwJQ2WK45daScAj_gO9olQ;_ylu=X3oDMTIyOTBydjBmBHNlYwNzcgRzbGsDaW1nBG9pZANkOWM4YmE1OTRiN2JkZGEyMmZjM2U0NjU1YTczNWEzZARncG9zAzEEaXQDYmluZw--?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fyhs%2Fsearch%3Fp%3Dbackground%2Bimages%2Bprofessionals%26n%3D60%26ei%3DUTF-8%26fr%3Dyhs-trp-001%26fr2%3Dsb-top-in.images.search%26hsimp%3Dyhs-001%26hspart%3Dtrp%26tab%3Dorganic%26ri%3D1&w=1920&h=1080&imgurl=backgroundcheckall.com%2Fwp-content%2Fuploads%2F2017%2F12%2Fprofessional-background-hd-11.jpg&rurl=http%3A%2F%2Fbackgroundcheckall.com%2Fprofessional-background-hd-11%2F&size=390.8KB&name=Professional+background+hd+11+%C2%BB+Background+Check+All&p=background+images+professionals&oid=d9c8ba594b7bdda22fc3e4655a735a3d&fr2=sb-top-in.images.search&fr=yhs-trp-001&tt=Professional+background+hd+11+%C2%BB+Background+Check+All&b=0&ni=72&no=1&ts=&tab=organic&sigr=11srru44k&sigb=15iu6s6aa&sigi=12jgvvh5f&sigt=11l4a5bgb&sign=11l4a5bgb&.crumb=4uJ1AiwBo8v&fr=yhs-trp-001&fr2=sb-top-in.images.search&hsimp=yhs-001&hspart=trp");
+
+  height: 100 vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*NAVIGATION BAR*/
+#nav-bar
+{
+    position:sticky;
+    top:0;
+    z-index: 10;
+}
+
+.navbar-brand img
+{
+height:60px;
+padding-left: 30px;
+}
+.navbar{
+    background: #fff;
+
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color:#555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*--------------------------LOGIN FORM--------------------*/
+
+.login-box
+{
+  width: 280px;
+  position: absolute;
+  top:50%;
+  left: 5%;
+  transform: translate(-50%,-50%);
+  color:black;
+}
+.login-box h1{
+  float: left;
+  font-size: 40px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.textbox
+{
+  width:100%;
+  overflow:hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin:8px 0;
+  border-bottom: 1px solid;
+  color:black;
+}
+.textbox i
+{
+  width:26px;
+  float:left;
+  text-align: center;
+  color:black;
+}
+
+.textbox input{
+  border:none;
+  outline: none;
+  background: none;
+  font-size: 18px;
+  width:80px;
+  float: left;
+  margin: 0 10px;
+  color:black;
+}
+.button
+{
+  width:100%;
+  background: none;
+  border:2px solid;
+  color:black;
+  padding: 5px;
+
+}
+
+::placeholder { 
+  color:black;
+  opacity: 1; 
+}
+
+::message { 
+  color:red;
+  opacity: 1; 
+}
